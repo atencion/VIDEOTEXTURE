@@ -13,8 +13,8 @@ function VideoText({ clicked, ...props }) {
   const [video] = useState(() => Object.assign(document.createElement('video'), { src: '/drei.mp4', crossOrigin: 'Anonymous', loop: true }))
   useEffect(() => void (clicked && video.play()), [video, clicked])
   return (
-    <Text font="/Inter-Bold.woff" fontSize={3} letterSpacing={-0.06} {...props}>
-      drei
+    <Text font="/Inter-Bold.woff" fontSize={3} letterSpacing={-0.12} {...props}>
+      morse
       <meshBasicMaterial toneMapped={false}>
         <videoTexture attach="map" args={[video]} encoding={THREE.sRGBEncoding} />
       </meshBasicMaterial>

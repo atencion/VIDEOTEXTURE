@@ -1,7 +1,7 @@
 {
-  "name": "video-texturesforked",
+  "name": "morse-video",
   "version": "1.0.0",
-  "description": "This example shows drei's new Reflector in combination with video textures.",
+  "description": "",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
